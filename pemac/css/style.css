@@ -223,20 +223,6 @@ ul ul, ul ol, ol ul, ol ol {
   z-index: 9;
 }
 
-main[role="main"], #fh5co-blog {
-  padding: 5em 0 3em 0;
-}
-@media screen and (max-width: 768px) {
-  main[role="main"], #fh5co-blog {
-    padding: 3em 0 1em 0;
-  }
-}
-@media screen and (max-width: 768px) {
-  main[role="main"], #fh5co-blog {
-    padding: 2em 0 .5em 0;
-  }
-}
-
 .fh5co-heading-with-border {
   padding-bottom: 20px;
   margin-bottom: 20px;
@@ -692,7 +678,7 @@ Components
 }
 
 .btn-primary {
-  background: #337cbb;
+  background: #337EF1;
   border: 2px solid #28bbf8;
   border-radius: 0;
 }
@@ -1473,6 +1459,31 @@ a > img.fh5co-align-center {
 
 .input-text-formater {
   font-family: arial;
+}
+
+.destaque-container {
+  background-color: #FFFFFF;
+}
+
+.links-fonts {
+  font-family: arial;
+  color: #337cbb;
+}
+
+.nav-customizer {
+  border-radius: 0 !important;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.background-blue {
+  background-color: #337cbb !important;
+}
+
+.ajust-bottom-space {
+  margin-bottom: 50px;
 }
 
 ::-webkit-input-placeholder {
