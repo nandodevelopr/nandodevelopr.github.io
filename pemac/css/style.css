@@ -1486,6 +1486,10 @@ a > img.fh5co-align-center {
   margin-bottom: 50px;
 }
 
+.noticia-full-image {
+  text-align: center;
+}
+
 ::-webkit-input-placeholder {
    font: 12px arial;
 }
