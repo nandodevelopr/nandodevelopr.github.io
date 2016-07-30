@@ -70,9 +70,9 @@ DESIGNED & DEVELOPED by FREEHTML5.CO
 				<ul id="fh5co-main-nav">
 					<li><a href="../index.php">Home</a></li>
 					<li><a href="../sobre.php">Institucional</a></li>
-					<li><a href="../servicos.php">Serviços</a></li>
+					<li class="active"><a href="../servicos.php">Serviços</a></li>
 					<li><a href="../cases.php">Cases</a></li>
-					<li class="active"><a href="../noticias.php">Notícias</a></li>
+					<li><a href="../noticias.php">Notícias</a></li>
 					<li><a href="../contato.php">Fale conosco</a></li>
 				</ul>
 			</div>
@@ -100,13 +100,13 @@ DESIGNED & DEVELOPED by FREEHTML5.CO
               <li>
                 <a href="../sobre.php" class="links-fonts">Institucional</a>
               </li>
-              <li>
+              <li class="active">
                 <a href="../servicos.php" class="links-fonts">Serviços</a>
               </li>
               <li>
                 <a href="../cases.php" class="links-fonts">Cases</a>
               </li>
-              <li class="active">
+              <li>
                 <a href="../noticias.php" class="links-fonts">Notícias</a>
               </li>
               <li>
@@ -122,25 +122,17 @@ DESIGNED & DEVELOPED by FREEHTML5.CO
 			<div id="fh5co-blog">
 				<div class="container">
 					<div class="fh5co-section-heading">
-						<h2 class="text-muted">PEMAC associa-se ao Green Building Council</h2>
+						<h2 class="text-muted">Laudo do SPDA</h2>
 					</div>
 					<div class="row">
 						<div class="col-md-12 hidden-sm hidden-xs visible-md-block visible-lg-block noticia-full-image">
-							<figure>
-								<img src="../images/green-building.jpg" alt="Image" style="max-width: 130%;">
-							</figure>
+							<!--<figure>
+								<img src="../images/id1nov.jpg" alt="Image" style="max-width: 130%; width: 200px;">
+							</figure>-->
 						</div>
 						<div class="col-md-12 col-sm-12">
 							<article class="fh5co-post-entry">
-								<p class="paragraph">O Green Building Council é uma organização não governamental sem fins lucrativos que representa a totalidade da indústria de construção, de forma balanceada e com base em consenso, cuja missão é desenvolver a indústria da construção sustentável no país, utilizando as forças de mercado para conduzir a adoção de práticas de green bulding em um processo integrado de concepção, implantação, construção, e operação de edificações e espaços construídos.</p>
-
-								<p class="paragraph">O GBC Brasil é um dos 21 membros do World Green Building Council, entidade supranacional que regula e incentiva a criação de Conselhos Nacionais como forma de promover mundialmente tecnologias, iniciativas e operações sustentáveis na construção civil.</p>
-
-								<p class="paragraph">O sucesso da atuação do GBCB pode ser medido pelo crescimento da certificação LEED (Leadership in Energy and Environmental Design) no Brasil. Em 2004, o selo recebeu o primeiro pedido de um empreendimento brasileiro e também da América Latina.</p>
-
-								<p class="paragraph">O GBC trabalha na divulgação das melhores práticas adotadas, incluindo tecnologias, materiais, processos e procedimentos operacionais, bem como promoverá o sistema de certificação LEED (Leadership in Energy & Environmental Design) no Brasil.</p>
-
-								<p class="paragraph">E é com muito prazer que a PEMAC Engenharia Elétrica e Consultoria se associa ao Green Building Council no desenvolvimento de melhorias para os processos construtivos atuais, viabilizando interesses econômicos com interesses ambientais.</p>
+								<p class="paragraph">O Laudo do SPDA (Sistema de Proteção contra Descargas Atmosféricas) é o relatório da inspeção e das medições do sistema de aterramento elétrico e do sistema de para- raios, de acordo com a norma NBR 5419:2015. Este laudo é importante, pois assegura ao cliente boas condições de proteção e segurança contra descargas atmosféricas...</p>
 							</article>
 						</div>
 						<div class="clearfix visible-sm-block"></div>
@@ -157,4 +149,4 @@ DESIGNED & DEVELOPED by FREEHTML5.CO
 		</main>
 		<!-- Main -->
 		
-		<?php include('footer.php');?>
+		<?php include('../footer.php');?>

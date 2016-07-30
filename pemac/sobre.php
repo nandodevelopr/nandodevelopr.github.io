@@ -33,7 +33,7 @@ DESIGNED & DEVELOPED by FREEHTML5.CO
 	<meta name="twitter:card" content="" />
 
   	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-  	<link rel="shortcut icon" href="favicon.ico">
+  	<link rel="shortcut icon" href="images/icon.png">
 
   	<!-- Google Webfont -->
 	<link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic|Montserrat:400,700' rel='stylesheet' type='text/css'>
@@ -68,12 +68,12 @@ DESIGNED & DEVELOPED by FREEHTML5.CO
 			<div class="fh5co-nav-overlay"></div>
 			<div class="fh5co-nav-inner">
 				<ul id="fh5co-main-nav">
-					<li><a href="index.html">Home</a></li>
-					<li class="active"><a href="sobre.html">Institucional</a></li>
-					<li><a href="servicos.html">Serviços</a></li>
-					<li><a href="portfolio.html">Cases</a></li>
-					<li><a href="news.html">Notícias</a></li>
-					<li><a href="contact.html">Fale conosco</a></li>
+					<li><a href="index.php">Home</a></li>
+					<li class="active"><a href="sobre.php">Institucional</a></li>
+					<li><a href="servicos.php">Serviços</a></li>
+					<li><a href="cases.php">Cases</a></li>
+					<li><a href="noticias.php">Notícias</a></li>
+					<li><a href="contato.php">Fale conosco</a></li>
 				</ul>
 			</div>
 		</div>
@@ -82,36 +82,35 @@ DESIGNED & DEVELOPED by FREEHTML5.CO
 		<!-- Header -->
 		<header id="fh5co-header" role="banner">
 			<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle visible-sm visible-xs"><i></i></a>
-			<div id="fh5co-logo" class="text-center"><a href="index.html"><img src="images/logo.png" alt="Image"></a></div>
+			<div id="fh5co-logo" class="text-center"><a href="index.php"><img src="images/logo.png" alt="Image"></a></div>
 		</header>
 		<!-- Header -->
 		
 		<!-- Hero -->
 		<aside role="complementary" id="fh5co-hero" style="height: 200px; background-color: #F5F5F5;">
-			<div class="fh5co-bg-overlay"></div>
 		</aside>
 		<!-- Hero -->
-		
+
 		<!--MENU-->
 		<div class="container-fluid ajust-bottom-space hidden-sm hidden-xs visible-md-block visible-lg-block">
 			<ul class="lead nav nav-justified nav-tabs">
-             <li>
-                <a  href="index.html" class="links-fonts">Home</a>
+              <li>
+                <a href="index.php" class="links-fonts">Home</a>
               </li>
               <li class="active">
-                <a href="sobre.html" class="links-fonts">Institucional</a>
+                <a href="sobre.php" class="active links-fonts">Institucional</a>
               </li>
               <li>
-                <a href="servicos.html" class="links-fonts">Serviços</a>
+                <a href="servicos.php" class="links-fonts">Serviços</a>
               </li>
               <li>
-                <a href="cases.html" class="links-fonts">Cases</a>
+                <a href="cases.php" class="links-fonts">Cases</a>
               </li>
               <li>
-                <a href="noticias.html" class="links-fonts">Notícias</a>
+                <a href="noticias.php" class="links-fonts">Notícias</a>
               </li>
               <li>
-                <a href="contato.html" class="links-fonts">Contato</a>
+                <a href="contato.php" class="links-fonts">Contato</a>
               </li>
             </ul>
         </div> 
@@ -269,94 +268,4 @@ DESIGNED & DEVELOPED by FREEHTML5.CO
 		</main>
 		<!-- Main -->
 	
-		<!-- Footer -->
-		<footer role="contentinfo">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-3">
-						<h2 class="fh5co-footer-title">Sobre</h2>
-						<p>Missão</p>
-						<p>Visão</p>
-						<p>Valores</p>
-						<p>Nossa história</p>
-						<p>Competências</p>
-					</div>
-					<div class="col-md-3">
-						<h2 class="fh5co-footer-title">Serviços</h2>
-						<p>Análises termograficas</p>
-						<p>As built</p>
-						<p>Diagrama unifilar geral</p>
-						<p>Laudo do SPDA</p>
-						<p>Laudo luminotécnico</p>
-						<p>Medição da resistividade do solo</p>
-						<p>Medições de energia</p>
-						<p>Projeto de painéis elétricos</p>
-						<p>Projetos de iluminação</p>
-						<p>Projetos elétricos</p>
-						<p>Projetos de sistemas fotovoltaicos</p>
-						<p>RTI - Relatório técnico de inspeção</p>
-					</div>
-					<div class="col-md-3">
-						<h2 class="fh5co-footer-title">Últimos cases</h2>
-						<p>Nestlé Chocolates Projeto de adequação de iluminação da unidade fabril Caçapava-SP</p>
-						<p>Projeto de geração de energia solar para prédio residencial</p>
-						<p>Projeto de modernização do escritório do Conselho Regional de Farmácia</p>
-						<p>Projeto elétrico de instrumentação</p>
-					</div>
-					<div class="col-md-3">
-						<h2 class="fh5co-footer-title">Últimas notícias</h2>
-						<p>PEMAC associa-se ao Green Building Council</p>
-						<p>O Arco elétrico e o que diz a NR-10</p>
-					</div>
-					<div class="col-md-3">
-						<h2 class="fh5co-footer-title">Contato</h2>
-						<p>email@email.com</p>
-						<p>(11) 0000-0000</p>
-					</div>
-					<div class="col-md-2">
-						<h2 class="fh5co-footer-title">Conecte-se</h2>
-						<ul class="fh5co-footer-links">
-							<li><a href="#" class="fh5co-link"><i class="fa fa-facebook-square"></i>Facebook</a></li>
-						</ul>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="col-md-12">
-						<div class="fh5co-copyright">
-							<p class="pull-left">&copy;	PEMAC Engenharia 2016. Todos os direitos reservados.</p>
-						</div>
-					</div>
-				</div>
-				
-			</div>
-		</footer>
-		<!-- Footer -->
-
-		<!-- Go To Top -->
-		<a href="#" class="fh5co-gotop"><i class="ti-angle-up"></i></a>
-
-
-		
-			
-		<!-- jQuery -->
-		<script src="js/jquery-1.10.2.min.js"></script>
-		<!-- jQuery Easing -->
-		<script src="js/jquery.easing.1.3.js"></script>
-		<!-- Bootstrap -->
-		<script src="js/bootstrap.js"></script>
-		<!-- Owl carousel -->
-		<script src="js/owl.carousel.min.js"></script>
-		<!-- Magnific Popup -->
-		<script src="js/jquery.magnific-popup.min.js"></script>
-		<!-- Easy Responsive Tabs -->
-		<script src="js/easyResponsiveTabs.js"></script>
-		<!-- FastClick for Mobile/Tablets -->
-		<script src="js/fastclick.js"></script>
-		<!-- Velocity -->
-		<script src="js/velocity.min.js"></script>
-		<!-- Main JS -->
-		<script src="js/main.js"></script>
-
-	</body>
-</html>
+		<?php include('footer.php');?>

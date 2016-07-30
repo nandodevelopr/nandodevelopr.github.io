@@ -68,12 +68,12 @@ DESIGNED & DEVELOPED by FREEHTML5.CO
 			<div class="fh5co-nav-overlay"></div>
 			<div class="fh5co-nav-inner">
 				<ul id="fh5co-main-nav">
-					<li class="active"><a href="index.html">Home</a></li>
-					<li><a href="sobre.html">Institucional</a></li>
-					<li><a href="servicos.html">Serviços</a></li>
-					<li><a href="#">Cases</a></li>
-					<li><a href="#">Notícias</a></li>
-					<li><a href="#">Fale conosco</a></li>
+					<li class="active"><a href="index.php">Home</a></li>
+					<li><a href="sobre.php">Institucional</a></li>
+					<li><a href="servicos.php">Serviços</a></li>
+					<li><a href="cases.php">Cases</a></li>
+					<li><a href="noticias.php">Notícias</a></li>
+					<li><a href="contato.php">Fale conosco</a></li>
 				</ul>
 			</div>
 		</div>
@@ -82,7 +82,7 @@ DESIGNED & DEVELOPED by FREEHTML5.CO
 		<!-- Header -->
 		<header id="fh5co-header" role="banner">
 			<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle visible-sm visible-xs"><i></i></a>
-			<div id="fh5co-logo" class="text-center"><a href="index.html"><img src="images/logo.png" alt="Image"></a></div>
+			<div id="fh5co-logo" class="text-center"><a href="index.php"><img src="images/logo.png" alt="Image"></a></div>
 		</header>
 		<!-- Header -->
 		
@@ -98,19 +98,19 @@ DESIGNED & DEVELOPED by FREEHTML5.CO
                 <a class="active links-fonts">Home</a>
               </li>
               <li>
-                <a href="sobre.html" class="links-fonts">Institucional</a>
+                <a href="sobre.php" class="links-fonts">Institucional</a>
               </li>
               <li>
-                <a href="servicos.html" class="links-fonts">Serviços</a>
+                <a href="servicos.php" class="links-fonts">Serviços</a>
               </li>
               <li>
-                <a href="cases.html" class="links-fonts">Cases</a>
+                <a href="cases.php" class="links-fonts">Cases</a>
               </li>
               <li>
-                <a href="noticias.html" class="links-fonts">Notícias</a>
+                <a href="noticias.php" class="links-fonts">Notícias</a>
               </li>
               <li>
-                <a href="contato.html" class="links-fonts">Contato</a>
+                <a href="contato.php" class="links-fonts">Contato</a>
               </li>
             </ul>
         </div> 
@@ -137,7 +137,7 @@ DESIGNED & DEVELOPED by FREEHTML5.CO
 								</h2>
 								<p class="paragraph">Projeto de adequação de iluminação da unidade fabril Caçapava-SP.</p>
 								<p class="paragraph">Projeto elétrico de toda a fábrica de Chocolates localizada na cidade de Caçapava. A planta fabril, necessitava readequar toda sua iluminação para atender as novas normas de iluminação NBR 8995:2013.</p>
-								<p><a href="#" class="fh5co-link"><i class="fa fa-angle-right"></i> Conheça outros projetos</a></p>
+								<p><a href="cases.php" class="fh5co-link"><i class="fa fa-angle-right"></i> Conheça outros projetos</a></p>
 							</section>
 						</div>
 					</div>
@@ -278,7 +278,7 @@ DESIGNED & DEVELOPED by FREEHTML5.CO
 								</div>
 							</div>
 							<div class="col-md-6 hidden-sm hidden-xs visible-md-block visible-lg-block">
-								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.778662036378!2d-46.63932097725146!3d-23.540461994337917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce58507840e2a5%3A0xc646ffaf293faa9b!2sAv.+Rio+Branco%2C+279+-+Campos+El%C3%ADseos%2C+S%C3%A3o+Paulo+-+SP!5e0!3m2!1spt-BR!2sbr!4v1436015716254" width="485" height="355" frameborder="0"></iframe>
+								<iframe style="pointer-events: none;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.778662036378!2d-46.63932097725146!3d-23.540461994337917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce58507840e2a5%3A0xc646ffaf293faa9b!2sAv.+Rio+Branco%2C+279+-+Campos+El%C3%ADseos%2C+S%C3%A3o+Paulo+-+SP!5e0!3m2!1spt-BR!2sbr!4v1436015716254" width="485" height="355" frameborder="0"></iframe>
 								<p class="paragraph paragraph-small">Endereço: Avenida Rio branco - 279 - Campos Elísios - São Paulo - SP<br>Telefone: (11) 0000-0000<br>Email: email@email.com</p>
 							</div>
 						</form>
@@ -290,95 +290,5 @@ DESIGNED & DEVELOPED by FREEHTML5.CO
 
 		</main>
 		<!-- Main -->
-		
-		<!-- Footer -->
-		<footer role="contentinfo">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-3">
-						<h2 class="fh5co-footer-title">Sobre</h2>
-						<p>Missão</p>
-						<p>Visão</p>
-						<p>Valores</p>
-						<p>Nossa história</p>
-						<p>Competências</p>
-					</div>
-					<div class="col-md-3">
-						<h2 class="fh5co-footer-title">Serviços</h2>
-						<p>Análises termograficas</p>
-						<p>As built</p>
-						<p>Diagrama unifilar geral</p>
-						<p>Laudo do SPDA</p>
-						<p>Laudo luminotécnico</p>
-						<p>Medição da resistividade do solo</p>
-						<p>Medições de energia</p>
-						<p>Projeto de painéis elétricos</p>
-						<p>Projetos de iluminação</p>
-						<p>Projetos elétricos</p>
-						<p>Projetos de sistemas fotovoltaicos</p>
-						<p>RTI - Relatório técnico de inspeção</p>
-					</div>
-					<div class="col-md-3">
-						<h2 class="fh5co-footer-title">Últimos cases</h2>
-						<p>Nestlé Chocolates Projeto de adequação de iluminação da unidade fabril Caçapava-SP</p>
-						<p>Projeto de geração de energia solar para prédio residencial</p>
-						<p>Projeto de modernização do escritório do Conselho Regional de Farmácia</p>
-						<p>Projeto elétrico de instrumentação</p>
-					</div>
-					<div class="col-md-3">
-						<h2 class="fh5co-footer-title">Últimas notícias</h2>
-						<p>PEMAC associa-se ao Green Building Council</p>
-						<p>O Arco elétrico e o que diz a NR-10</p>
-					</div>
-					<div class="col-md-3">
-						<h2 class="fh5co-footer-title">Contato</h2>
-						<p>email@email.com</p>
-						<p>(11) 0000-0000</p>
-					</div>
-					<div class="col-md-2">
-						<h2 class="fh5co-footer-title">Conecte-se</h2>
-						<ul class="fh5co-footer-links">
-							<li><a href="#" class="fh5co-link"><i class="fa fa-facebook-square"></i>Facebook</a></li>
-						</ul>
-					</div>
-				</div>
 
-				<div class="row">
-					<div class="col-md-12">
-						<div class="fh5co-copyright">
-							<p class="pull-left">&copy;	PEMAC Engenharia 2016. Todos os direitos reservados.</p>
-						</div>
-					</div>
-				</div>
-				
-			</div>
-		</footer>
-		<!-- Footer -->
-		
-		<!-- Go To Top -->
-		<a href="#" class="fh5co-gotop"><i class="ti-angle-up"></i></a>
-		
-			
-		<!-- jQuery -->
-		<script src="js/jquery-1.10.2.min.js"></script>
-
-		<script type="text/javascript" scr="js/my_functions.js"></script>
-		<!-- jQuery Easing -->
-		<script src="js/jquery.easing.1.3.js"></script>
-		<!-- Bootstrap -->
-		<script src="js/bootstrap.js"></script>
-		<!-- Owl carousel -->
-		<script src="js/owl.carousel.min.js"></script>
-		<!-- Magnific Popup -->
-		<script src="js/jquery.magnific-popup.min.js"></script>
-		<!-- Easy Responsive Tabs -->
-		<script src="js/easyResponsiveTabs.js"></script>
-		<!-- FastClick for Mobile/Tablets -->
-		<script src="js/fastclick.js"></script>
-		<!-- Velocity -->
-		<script src="js/velocity.min.js"></script>
-		<!-- Main JS -->
-		<script src="js/main.js"></script>
-
-	</body>
-</html>
+		<?php include('footer.php');?>
