@@ -1490,6 +1490,10 @@ a > img.fh5co-align-center {
   text-align: center;
 }
 
+.image-size {
+  width: 100%;
+}
+
 ::-webkit-input-placeholder {
    font: 12px arial;
 }
