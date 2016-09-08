@@ -259,19 +259,22 @@ DESIGNED & DEVELOPED by FREEHTML5.CO
 							<h2>Fale conosco</h2>
 							
 						</div>
-						<form action="#">
+						<form action="sendmail.php" method="post">
 							<div class="col-md-6">
 								<div class="form-group">
-									<input type="text" id="name" class="form-control input-lg input-text-formater" placeholder="Nome">
+									<input type="text" id="name" class="form-control input-lg input-text-formater" name="nome" placeholder="Nome">
 								</div>
 								<div class="form-group">
-									<input type="text" id="empresa" class="form-control input-lg input-text-formater" placeholder="Empresa">
+									<input type="text" id="empresa" class="form-control input-lg input-text-formater" name="empresa" placeholder="Empresa">
 								</div>
 								<div class="form-group">
-									<input type="text" id="email" class="form-control input-lg input-text-formater" placeholder="Email">
+									<input type="text" id="email" class="form-control input-lg input-text-formater" name="email" placeholder="Email">
 								</div>
 								<div class="form-group">
-									<textarea name="message" id="message" cols="30" rows="10" class="form-control input-lg input-text-formater" placeholder="Mensagem"></textarea>
+									<input type="text" id="telefone" class="form-control input-lg input-text-formater" name="telefone" placeholder="Telefone">
+								</div>
+								<div class="form-group">
+									<textarea name="mensagem" id="message" cols="30" rows="10" class="form-control input-lg input-text-formater" placeholder="Mensagem"></textarea>
 								</div>
 								<div class="form-group text-center">
 									<button type="submit" class="btn btn-primary btn-lg"><i class="fa fa-envelope fa-fw"></i>Enviar</button>
