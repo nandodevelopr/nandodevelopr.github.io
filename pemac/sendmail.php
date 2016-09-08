@@ -7,31 +7,31 @@
 	$dataenvio = date('d-m-Y');
 
 	if (!isset($_POST['nome'])) {
-		header("Location: mailerror.php");
+		header("Location: mailerror.html");
 	} else {
 		$nome = $_POST['nome'];
 	}
 
 	if (!isset($_POST['empresa'])) {
-		header("Location: mailerror.php");
+		header("Location: mailerror.html");
 	} else {
 		$empresa = $_POST['empresa'];
 	}
 
 	if (!isset($_POST['email'])) {
-		header("Location: mailerror.php");
+		header("Location: mailerror.html");
 	} else {
 		$email = $_POST['email'];
 	}
 
 	if (!isset($_POST['telefone'])) {
-		header("Location: mailerror.php");
+		header("Location: mailerror.html");
 	} else {
 		$telefone = $_POST['telefone'];
 	}
 
 	if (!isset($_POST['mensagem'])) {
-		header("Location: mailerror.php");
+		header("Location: mailerror.html");
 	} else {
 		$mensagem = $_POST['mensagem'];
 	}
@@ -74,5 +74,5 @@
 	  
 	  	mail($destinatario, $assunto, $mensagemFormatada, $headers);
 
-		echo $mensagemFormatada; die();
+		header("Location: mailsuccess.html");
 ?>
