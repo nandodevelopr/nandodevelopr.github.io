@@ -1,0 +1,25 @@
+.progress {
+	margin: 10px 0;
+	 box-shadow: none;
+   background-color: #e3f2fd;
+}
+.progress-bar-success {
+  height: 10px;
+  background-color: #2196f3;
+   box-shadow: none;
+}
+.progress-bar-info {
+  height: 10px;
+  background-color: #1e88e5;
+    box-shadow: none;
+}
+.progress-bar-warning {
+  height: 10px;
+  background-color: #1976d2;
+   box-shadow: none;
+}
+.progress-bar-danger {
+  height: 10px;
+  background-color: #1565c0;
+  box-shadow: none;
+  }
